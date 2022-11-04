@@ -1,0 +1,13 @@
+@font-face{font-family:'Myraid Set Pro Text';src:url(/fonts/myriad-set-pro_text.woff) format("woff");}
+html, body{margin:0;}
+a{color:blue;text-decoration: none;}
+*{font-size:.999em;box-sizing: border-box;font-family: 'Myraid Set Pro Text',Arial,tahoma,verdana,sans-serif;}
+.head{border-bottom: 1px solid #DDD;height:59px}
+.head-item{display: inline-block;padding:20px 14px;}
+
+.head-right{float: right;}
+.head-wrap{padding:0 14px;}
+.head-center{text-align: center;position: relative;top:-41px}
+.text_field{border:1px solid #CCC;padding:1px 11px;height:29px;border-radius:3px}
+.footer-wrap{text-align: center;border-top:1px solid #DDD;padding:7px 0;}
+.content{background-color:#FBFBFB;}

@@ -1,5 +1,14 @@
 <?php
 
+
+define('SITE_NAME', 'babel');
+
+define('SITE_ROOT', str_replace('\\', '/', $_SERVER['DOCUMENT_ROOT']).'/');
+define('SMALL_PHOTO_PATH', '/image/google-material-design-wallpaper-2.jpg');
+define('BIG_PHOTO_PATH', '/image/rock-1662481385967-6687.jpg');
+
+
+
 /**
  * Laravel - A PHP Framework For Web Artisans
  *
