@@ -20,3 +20,15 @@ Route::get('/', function () {
 Route::get('/feed', function () {
     return view('feed.feed');
 });
+
+Route::get('/reg', function () {
+    return view('reg.reg');
+});
+
+Route::get('/login', function () {
+    return view('login.login');
+});
+
+Route::get('/restore', function () {
+    return view('restore.restore');
+});

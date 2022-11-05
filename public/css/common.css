@@ -3,11 +3,28 @@ html, body{margin:0;}
 a{color:blue;text-decoration: none;}
 *{font-size:.999em;box-sizing: border-box;font-family: 'Myraid Set Pro Text',Arial,tahoma,verdana,sans-serif;}
 .head{border-bottom: 1px solid #DDD;height:59px}
-.head-item{display: inline-block;padding:20px 14px;}
+.head-item{display: inline-block;padding:20px 11px;}
 
-.head-right{float: right;}
-.head-wrap{padding:0 14px;}
-.head-center{text-align: center;position: relative;top:-41px}
+.head-left{position: absolute;left: 0;z-index: 9}
+.head-right{position: absolute;right: 0;z-index: 9}
+.head-wrap{margin:0 19px;position: relative;}
+.head-center{text-align: center;position: relative;padding-top:15px}
 .text_field{border:1px solid #CCC;padding:1px 11px;height:29px;border-radius:3px}
 .footer-wrap{text-align: center;border-top:1px solid #DDD;padding:7px 0;}
-.content{background-color:#FBFBFB;}
+.content{}
+
+
+.head-search__field{background-image: url('/image/icon/magnify (1).png');background-position: 9px center ;padding-left:31px; background-repeat: no-repeat;}
+.big_text_field{height:44px;width:100%;
+    padding: 5px 17px;border:1px solid #CCC;border-radius:5px;}
+.form-big__label{position:relative;top:9px;padding:0 9px;}
+.form-big__label_text{background-color:#FFF;padding:0 4px;margin-left:3px}
+.form{width:310px;margin:0 auto;}
+.form-title{text-align:center;font-size:1.9em;margin-bottom:7px}
+.form-wrap{padding:64px 0;}
+.button{background-color: #8fc28f;width:100%;height:34px;color:#FFF;border:0;border-radius:5px;font-weight: bold;}
+.form-item__wrap__button{margin-top:11px}
+.form-item__wrap{margin:9px 0;}
+.form-item__wrap_button{margin-top:11px}
+
+.form-bottom__line{margin:7px 0;}
