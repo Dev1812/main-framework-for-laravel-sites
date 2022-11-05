@@ -9,14 +9,14 @@
 <div class="head">
 <div class="head-wrap">
 <div class="head-right">
-  <a href="" class="head-item">Вход</a>
-  <a href="" class="head-item">Регистрация</a>
+  <a href="/login" class="head-item">Вход</a>
+  <a href="/reg" class="head-item">Регистрация</a>
 </div>
 <div class="head-left">
   <a href="" class="head-item">Главная</a>
 </div>
 <div class="head-center">
-	<input type="text" name="" placeholder="Поиск..." class="text_field">
+	<input type="text" name="" placeholder="Поиск..." class="text_field head-search__field">
 </div>
 </div>
 </div>
